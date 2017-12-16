@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #000;
+}
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.some-wrapper{
+	width: 960px;
+	margin: 0px auto;
+}
+
+.thumb-slider ul{
+	width: 10000px;
+	position: relative;
+	/*
+		without this font size setting the inline-block display 
+		will have some default margin which doesn't go away.
+	*/
+	font-size: 0px;
+	/*
+		*to support opera add- 
+			line-height: 0px;
+		*to support safari add-
+			font-size: 1px;
+	*/
+}
+.thumb-slider ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+.thumb-slider ul li:first-child{
+	margin-left: 5px; /*related to .thumb-slider ul li*/
+}
+.thumb-slider img{
+	border: 1px solid #ccc;
+}
+.thumb-slider .thumb-btn{
+	/*line-height and height has to be same*/
+	line-height: 172px;
+	height: 172px;
+	
+	font-size: 55px;
+	color: #888;
+	background-color: #ccc;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+.thumb-slider .left-btn{
+	border-radius: 5px 0px 0px 5px;
+}
+.thumb-slider .right-btn{
+	border-radius: 0px 5px 5px 0px;
+}
+.thumb-slider .thumb-outer-container{
+	width: inherit;
+	margin-top: 20px;
+}
+.thumb-slider .thumb-inner-container{
+	width: 85%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.thumb-slider{
+	width: 960px;
+	margin: 10px auto;
+}
+.thumb-slider .tcontainer{
+	width: inherit;
+	height: 175px;
+	overflow: hidden;
+	position: absolute;
+	border: 1px solid #ccc;
+}
+.thumb-slider ul{
+	width: 10000px;
+	position: relative;
+	margin: 5px;
+}
+.thumb-slider li{
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: baseline;
+}
+.thumb-slider img{
+	border: 1px solid #ccc;
+}
+.thumb-btn{
+	color: #888;
+	font-size: 55px;
+	background-color: #ccc;
+	border: 1px solid #aaa;
+}
+*/
